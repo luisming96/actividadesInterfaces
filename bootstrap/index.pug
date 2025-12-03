@@ -1,0 +1,27 @@
+extends layout
+
+block contenido
+    nav.navbar.bg-white.border-bottom.border-dark
+        .container
+            a.navbar-brand(href="#") LOGO
+            .mx-auto
+                a.nav-link.d-inline.px-3(href="#") Catalog
+                a.nav-link.d-inline.px-3(href="#") About
+                a.nav-link.d-inline.px-3(href="#") Contacts
+            input(type="text" placeholder="search")
+            span 🛒
+
+    .container.mt-5
+        .row
+            .col-6
+                .caja-gris.altura-grande.mb-2
+                .row
+                    .col-3: .caja-gris.altura-peque
+                    .col-3: .caja-gris.altura-peque
+                    .col-3: .caja-gris.altura-peque
+                    .col-3: .caja-gris.altura-peque
+            .col-6
+                h1 Product Name
+                h2 $ 120.99
+                p Lorem ipsum dolor sit amet.
+                button.btn.borde-negro.w-100 ADD TO BAG

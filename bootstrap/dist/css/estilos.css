@@ -1,0 +1,17 @@
+.caja-gris {
+  background-color: #ddd;
+  border: 2px solid #000;
+  height: 100%;
+}
+
+.altura-grande {
+  height: 400px;
+}
+
+.altura-peque {
+  height: 100px;
+}
+
+.borde-negro {
+  border: 2px solid #000;
+}
