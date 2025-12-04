@@ -1,7 +1,6 @@
 .caja-gris {
   background-color: #ddd;
   border: 2px solid #000;
-  height: 100%;
 }
 
 .altura-grande {
@@ -9,7 +8,8 @@
 }
 
 .altura-peque {
-  height: 100px;
+  height: 80px;
+  width: 100px;
 }
 
 .borde-negro {
