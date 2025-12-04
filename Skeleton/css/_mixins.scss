@@ -1,18 +1,13 @@
+@mixin generar_columnas($dimension) {
+  $nombres: one, two, three, four, five, six, seven, eight, nine, ten;
 
-@mixin generar_columnas ( $dimension){
-  $i: 0;
-  
-  @each $tam in one, two, three, four, five, six, seven, eight, nine, ten {
-    @if $tam ==one{
-      .#{$tam}-#{$dimension}.column{ 
-        width: 6.4%; 
-      }
-      
-    }
-    .#{$tam}-#{$dimension}.columns {
-      width: 6.4% + $i*10.4%;
+  @each $tam in $nombres {
+    $i: index($nombres, $tam) - 1;
+      .#{$tam}-#{$dimension}.column,
+      .#{$tam}-#{$dimension}.columns {
+        width: 6.4% + ($i * 10.4%);
     
-      @if $tam == twelve {
+      @if $tam == ten {
         margin-left: 0;
       }
     }
@@ -21,7 +16,28 @@
     .offset-#{$dimension}-by-#{$tam}.columns{ 
       margin-left: 10.4%*($i+1);
     }
-    $i: $i + 1;
-    
   }
 } 
+
+$boton-temas: (
+  "primary":    #33C3F0,
+  "secondary":  #9b4dca, 
+  "success":    #2ecc71, 
+  "warning":    #f1c40f, 
+  "danger":     #e74c3c  
+);
+
+@mixin generar-botones($mapa) {
+  @each $nombre, $color in $mapa {
+    .btn-#{$nombre} {
+      background-color: $color;
+      border-color: $color;
+      color: white; 
+      
+      &:hover {
+        background-color: darken($color, 10%);
+        border-color: darken($color, 10%);
+      }
+    }
+  }
+}
