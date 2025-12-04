@@ -1,0 +1,29 @@
+doctype html
+html(lang="es" data-bs-theme="light")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        title Pricing example · Bootstrap v5.3
+        //script(src="../js/color-modes.js")
+        link(href="../css/bootstrap.min-2.css" rel="stylesheet")
+        link(href="../css/pricing.css" rel="stylesheet")
+        link(href="../css/siging.css" rel="stylesheet")
+
+    body
+        include dropdown.html
+
+        .container.py-3
+
+            .row
+                .col
+                    include cabecera.html
+            
+            .row
+                .col
+                    include cuerpo.html
+            
+            .row
+                .col
+                    include footer.html
+
+        script(src="../js/bootstrap.bundle.min.js")
