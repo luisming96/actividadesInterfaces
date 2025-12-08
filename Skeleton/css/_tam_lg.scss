@@ -1,6 +1,5 @@
 @use 'mixins' as *;
 
-/* For devices larger than 550px */
 @media (min-width: 550px) {
  
     .container-fluid {
@@ -54,12 +53,11 @@
   
   }
   
-  /* Larger than desktop */
+
   @media (min-width: 1000px) {
     @include generar_columnas("lg");
   }
   
-  /* Larger than Desktop HD */
   @media (min-width: 1200px) {
     @include generar_columnas("xl");
   }

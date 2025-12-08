@@ -2,15 +2,14 @@ doctype html
 html(lang="es")
     head
         meta(charset="UTF-8")
-        title Test 10 Cols
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Test Skeleton
         link(rel="stylesheet", href="../css/mis_estilos.css")
-        
-        style .column { background: #bbb; height: 50px; border: 1px solid black; text-align: center; color: white; font-weight: bold; }
 
     body
-        .container(style="margin-top: 50px")
-            h3 Prueba  10 Columnas
-            .row
+        .container
+            h3.text-center Prueba 10 Cols
+            .row.test-grid
                 .one.column 1
                 .one.column 2
                 .one.column 3
@@ -21,11 +20,29 @@ html(lang="es")
                 .one.column 8
                 .one.column 9
                 .one.column 10
-                
 
+            hr
+            h3.text-center Botones
+            .text-center
+                button.button.btn-primary Primary
+                button.button.btn-secondary Secondary
+                button.button.btn-success Success
+                button.button.btn-warning Warning
+                button.button.btn-danger Danger
 
-        button.button.btn-primary Primary
-        button.button.btn-secondary Secondary
-        button.button.btn-success Success
-        button.button.btn-warning Warning
-        button.button.btn-danger Danger
+            hr
+            h3 Galería de 3
+            .galeria.galeria-3
+                div: .caja-demo 1
+                div: .caja-demo 2
+                div: .caja-demo 3
+                div: .caja-demo 4
+                div: .caja-demo 5
+                div: .caja-demo 6
+
+            h3 Galería de 4
+            .galeria.galeria-4
+                div: .caja-demo A
+                div: .caja-demo B
+                div: .caja-demo C
+                div: .caja-demo D

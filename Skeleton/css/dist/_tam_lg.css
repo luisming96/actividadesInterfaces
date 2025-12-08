@@ -1,4 +1,3 @@
-/* For devices larger than 550px */
 @media (min-width: 550px) {
   .container-fluid {
     width: 100%;
@@ -39,11 +38,8 @@
     margin-left: 0;
   }
 
-  .one-md.column {
-    width: 6.4%;
-  }
-
-  .one-md.columns {
+  .one-md.column,
+.one-md.columns {
     width: 6.4%;
   }
 
@@ -52,7 +48,8 @@
     margin-left: 10.4%;
   }
 
-  .two-md.columns {
+  .two-md.column,
+.two-md.columns {
     width: 16.8%;
   }
 
@@ -61,7 +58,8 @@
     margin-left: 20.8%;
   }
 
-  .three-md.columns {
+  .three-md.column,
+.three-md.columns {
     width: 27.2%;
   }
 
@@ -70,7 +68,8 @@
     margin-left: 31.2%;
   }
 
-  .four-md.columns {
+  .four-md.column,
+.four-md.columns {
     width: 37.6%;
   }
 
@@ -79,7 +78,8 @@
     margin-left: 41.6%;
   }
 
-  .five-md.columns {
+  .five-md.column,
+.five-md.columns {
     width: 48%;
   }
 
@@ -88,7 +88,8 @@
     margin-left: 52%;
   }
 
-  .six-md.columns {
+  .six-md.column,
+.six-md.columns {
     width: 58.4%;
   }
 
@@ -97,7 +98,8 @@
     margin-left: 62.4%;
   }
 
-  .seven-md.columns {
+  .seven-md.column,
+.seven-md.columns {
     width: 68.8%;
   }
 
@@ -106,7 +108,8 @@
     margin-left: 72.8%;
   }
 
-  .eight-md.columns {
+  .eight-md.column,
+.eight-md.columns {
     width: 79.2%;
   }
 
@@ -115,7 +118,8 @@
     margin-left: 83.2%;
   }
 
-  .nine-md.columns {
+  .nine-md.column,
+.nine-md.columns {
     width: 89.6%;
   }
 
@@ -124,7 +128,8 @@
     margin-left: 93.6%;
   }
 
-  .ten-md.columns {
+  .ten-md.column,
+.ten-md.columns {
     width: 100%;
     margin-left: 0;
   }
@@ -161,13 +166,9 @@
     margin-left: 52%;
   }
 }
-/* Larger than desktop */
 @media (min-width: 1000px) {
-  .one-lg.column {
-    width: 6.4%;
-  }
-
-  .one-lg.columns {
+  .one-lg.column,
+.one-lg.columns {
     width: 6.4%;
   }
 
@@ -176,7 +177,8 @@
     margin-left: 10.4%;
   }
 
-  .two-lg.columns {
+  .two-lg.column,
+.two-lg.columns {
     width: 16.8%;
   }
 
@@ -185,7 +187,8 @@
     margin-left: 20.8%;
   }
 
-  .three-lg.columns {
+  .three-lg.column,
+.three-lg.columns {
     width: 27.2%;
   }
 
@@ -194,7 +197,8 @@
     margin-left: 31.2%;
   }
 
-  .four-lg.columns {
+  .four-lg.column,
+.four-lg.columns {
     width: 37.6%;
   }
 
@@ -203,7 +207,8 @@
     margin-left: 41.6%;
   }
 
-  .five-lg.columns {
+  .five-lg.column,
+.five-lg.columns {
     width: 48%;
   }
 
@@ -212,7 +217,8 @@
     margin-left: 52%;
   }
 
-  .six-lg.columns {
+  .six-lg.column,
+.six-lg.columns {
     width: 58.4%;
   }
 
@@ -221,7 +227,8 @@
     margin-left: 62.4%;
   }
 
-  .seven-lg.columns {
+  .seven-lg.column,
+.seven-lg.columns {
     width: 68.8%;
   }
 
@@ -230,7 +237,8 @@
     margin-left: 72.8%;
   }
 
-  .eight-lg.columns {
+  .eight-lg.column,
+.eight-lg.columns {
     width: 79.2%;
   }
 
@@ -239,7 +247,8 @@
     margin-left: 83.2%;
   }
 
-  .nine-lg.columns {
+  .nine-lg.column,
+.nine-lg.columns {
     width: 89.6%;
   }
 
@@ -248,7 +257,8 @@
     margin-left: 93.6%;
   }
 
-  .ten-lg.columns {
+  .ten-lg.column,
+.ten-lg.columns {
     width: 100%;
     margin-left: 0;
   }
@@ -258,13 +268,9 @@
     margin-left: 104%;
   }
 }
-/* Larger than Desktop HD */
 @media (min-width: 1200px) {
-  .one-xl.column {
-    width: 6.4%;
-  }
-
-  .one-xl.columns {
+  .one-xl.column,
+.one-xl.columns {
     width: 6.4%;
   }
 
@@ -273,7 +279,8 @@
     margin-left: 10.4%;
   }
 
-  .two-xl.columns {
+  .two-xl.column,
+.two-xl.columns {
     width: 16.8%;
   }
 
@@ -282,7 +289,8 @@
     margin-left: 20.8%;
   }
 
-  .three-xl.columns {
+  .three-xl.column,
+.three-xl.columns {
     width: 27.2%;
   }
 
@@ -291,7 +299,8 @@
     margin-left: 31.2%;
   }
 
-  .four-xl.columns {
+  .four-xl.column,
+.four-xl.columns {
     width: 37.6%;
   }
 
@@ -300,7 +309,8 @@
     margin-left: 41.6%;
   }
 
-  .five-xl.columns {
+  .five-xl.column,
+.five-xl.columns {
     width: 48%;
   }
 
@@ -309,7 +319,8 @@
     margin-left: 52%;
   }
 
-  .six-xl.columns {
+  .six-xl.column,
+.six-xl.columns {
     width: 58.4%;
   }
 
@@ -318,7 +329,8 @@
     margin-left: 62.4%;
   }
 
-  .seven-xl.columns {
+  .seven-xl.column,
+.seven-xl.columns {
     width: 68.8%;
   }
 
@@ -327,7 +339,8 @@
     margin-left: 72.8%;
   }
 
-  .eight-xl.columns {
+  .eight-xl.column,
+.eight-xl.columns {
     width: 79.2%;
   }
 
@@ -336,7 +349,8 @@
     margin-left: 83.2%;
   }
 
-  .nine-xl.columns {
+  .nine-xl.column,
+.nine-xl.columns {
     width: 89.6%;
   }
 
@@ -345,7 +359,8 @@
     margin-left: 93.6%;
   }
 
-  .ten-xl.columns {
+  .ten-xl.column,
+.ten-xl.columns {
     width: 100%;
     margin-left: 0;
   }

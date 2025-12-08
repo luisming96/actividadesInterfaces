@@ -1,0 +1,76 @@
+.row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.col-1 {
+  flex: 0 0 calc(100% / 12 * 1) !important;
+  max-width: calc(100% / 12 * 1) !important;
+  box-sizing: border-box;
+}
+
+.col-2 {
+  flex: 0 0 calc(100% / 12 * 2) !important;
+  max-width: calc(100% / 12 * 2) !important;
+  box-sizing: border-box;
+}
+
+.col-3 {
+  flex: 0 0 calc(100% / 12 * 3) !important;
+  max-width: calc(100% / 12 * 3) !important;
+  box-sizing: border-box;
+}
+
+.col-4 {
+  flex: 0 0 calc(100% / 12 * 4) !important;
+  max-width: calc(100% / 12 * 4) !important;
+  box-sizing: border-box;
+}
+
+.col-5 {
+  flex: 0 0 calc(100% / 12 * 5) !important;
+  max-width: calc(100% / 12 * 5) !important;
+  box-sizing: border-box;
+}
+
+.col-6 {
+  flex: 0 0 calc(100% / 12 * 6) !important;
+  max-width: calc(100% / 12 * 6) !important;
+  box-sizing: border-box;
+}
+
+.col-7 {
+  flex: 0 0 calc(100% / 12 * 7) !important;
+  max-width: calc(100% / 12 * 7) !important;
+  box-sizing: border-box;
+}
+
+.col-8 {
+  flex: 0 0 calc(100% / 12 * 8) !important;
+  max-width: calc(100% / 12 * 8) !important;
+  box-sizing: border-box;
+}
+
+.col-9 {
+  flex: 0 0 calc(100% / 12 * 9) !important;
+  max-width: calc(100% / 12 * 9) !important;
+  box-sizing: border-box;
+}
+
+.col-10 {
+  flex: 0 0 calc(100% / 12 * 10) !important;
+  max-width: calc(100% / 12 * 10) !important;
+  box-sizing: border-box;
+}
+
+.col-11 {
+  flex: 0 0 calc(100% / 12 * 11) !important;
+  max-width: calc(100% / 12 * 11) !important;
+  box-sizing: border-box;
+}
+
+.col-12 {
+  flex: 0 0 calc(100% / 12 * 12) !important;
+  max-width: calc(100% / 12 * 12) !important;
+  box-sizing: border-box;
+}

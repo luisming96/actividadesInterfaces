@@ -41,3 +41,19 @@ $boton-temas: (
     }
   }
 }
+
+@mixin crear-galeria($nombre, $max) {
+  .#{$nombre} {
+    display: flex;      
+    flex-wrap: wrap;   
+    width: 100%;
+  }
+
+  @for $i from 1 through $max {
+    .#{$nombre}-#{$i} > div {
+      width: 100% / $i;
+      box-sizing: border-box; 
+      padding: 5px;
+    }
+  }
+}

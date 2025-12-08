@@ -924,7 +924,6 @@ body.oscuro a {
   color: var(--colorTerciario);
 }
 
-/* For devices larger than 550px */
 @media (min-width: 550px) {
   .container-fluid {
     width: 100%;
@@ -1060,7 +1059,6 @@ body.oscuro a {
     margin-left: 52%;
   }
 }
-/* Larger than desktop */
 @media (min-width: 1000px) {
   .one-lg.column,
   .one-lg.columns {
@@ -1144,7 +1142,6 @@ body.oscuro a {
     margin-left: 104%;
   }
 }
-/* Larger than Desktop HD */
 @media (min-width: 1200px) {
   .one-xl.column,
   .one-xl.columns {
@@ -1238,6 +1235,26 @@ ul.nav_horizontal li {
 
 ul.nav_vertical li {
   display: inline;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.test-grid .column {
+  background: #bbb;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.caja-demo {
+  background: #ccc;
+  height: 100px;
+  border: 1px solid white;
 }
 
 .one-mobile.column,
@@ -1591,4 +1608,46 @@ ul.nav_vertical li {
 .btn-danger:hover {
   background-color: rgb(213.698630137, 43.8356164384, 26.301369863);
   border-color: rgb(213.698630137, 43.8356164384, 26.301369863);
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.galeria-1 > div {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.galeria-2 > div {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.galeria-3 > div {
+  width: 33.3333333333%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.galeria-4 > div {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.galeria-5 > div {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.galeria-6 > div {
+  width: 16.6666666667%;
+  box-sizing: border-box;
+  padding: 5px;
 }/*# sourceMappingURL=mis_estilos.css.map */
